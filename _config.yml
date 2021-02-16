@@ -96,13 +96,13 @@ analytics:
 author:
   name             : "Youn"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Showing outstanding talent in various fields"
+  bio              : "Engineer & Photographer"
   location         : "South Korea"
-  email            :
+  email            : "polymath.youn@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:polymath.youn@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
