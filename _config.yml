@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Youn"
 description              : "Footprints in various directions of those who want to become polymath"
 url                      : "https://polymath-youn.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/polymath-youn.github.com" # the subpath of your site, e.g. "/blog"
 repository               : "Polymath-Youn/polymath-youn.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/ai_engieer.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
