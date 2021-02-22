@@ -1,9 +1,5 @@
 ---
-layout: post
-title:  "Markdown syntax 마크다운 문법"
-author: software-engineer
-categories: [ Markdown ]
-image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
+layout: single
 ---
 
 This blog has a default layout which includes the stlye of first letter having 3ea. Also it is a `gitblog` type blog on `jekyll` structure. `Mundana` is being used as one of the `jekyll` theme. 
