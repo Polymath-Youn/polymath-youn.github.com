@@ -2,7 +2,6 @@
 layout: single
 title:  "Markdown syntax 마크다운 문법"
 exerpt: "무엇에 쓰는 물건인고"
-
 categories:
     - Gitblog
 tags: 

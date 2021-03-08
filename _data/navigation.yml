@@ -1,5 +1,7 @@
 # main links
 main:
+    - title: "CV"
+      url : /curriculum_vitae/   
     - title: "Post"
       url : /_posts/
   # - title: "Quick-Start Guide"
