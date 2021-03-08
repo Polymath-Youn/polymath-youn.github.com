@@ -3,7 +3,7 @@ main:
     - title: "CV"
       url : /curriculum_vitae/   
     - title: "Post"
-      url : /_posts/
+      url : /categories/
   # - title: "Quick-Start Guide"
     # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
