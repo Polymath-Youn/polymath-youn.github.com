@@ -1,10 +1,17 @@
 ---
-layout: post
+layout: single
 title:  "Markdown mathematic formulars 마크다운 수식"
-author: software-engineer
-categories: [ Markdown ]
-image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
+comments: true
+categories:
+    - Gitblog
+tags: 
+    - Markdown
+    - Gitblog
+    - Syntax
+    - Formular
 ---
+
+
 
 In articles which follow the Markdown format, mathematical formulars are expressed within the text or in block form. The basic form of expressing formulars are to place them between two dolor tags or between squre brackets. However, in the `post` template of this blog, the `$` tag is recognized as an expression. So, in the inline formular of the expression in the text, the `$` tag is applied to the thhe expression as in $\sqrt{3x-1}+(1+x)^2$. 
 

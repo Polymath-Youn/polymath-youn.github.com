@@ -1,11 +1,14 @@
 ---
-layout: post
+layout: single
 title:  "Post settings for jekyll blog 지킬 블로그 게시글 설정"
-author: software-engineer
-categories: [ Jekyll ]
-image: assets/images/jekyll-logo.png
-tags: [sticky, featured]
+comments: true
+categories:
+    - Gitblog
+tags: 
+    - Jekyll
+    - Gitblog
 ---
+
 
 Jekyll theme blog declares prior information about the article at the heading of the document. The pre-declaration information includes `layout`, `title`, `author`, `categorie`s, and representative `image`. In addition, the position of the first screen of the post can be assigned with the `tag` information provided by this blog theme `Mundana Jekyll Theme`.
 
