@@ -6,3 +6,6 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+//  한글 font 설정 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
