@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[C] DFS(Depth First Search) 깊이 우선 탐색"
+title: [C] DFS(Depth First Search) 깊이 우선 탐색
 categories:
     - C/C++
 toc: true
