@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "[C] Bubble sort, 버블 정렬"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
+    - Algorithm
 ---
 
 

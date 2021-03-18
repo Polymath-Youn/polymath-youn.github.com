@@ -1,10 +1,17 @@
 ---
-layout: post
+layout: single
 title:  "[C] ASCII, String 문자열"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+comments: true
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
+
 
 
 ASCII is easy to understand if you think of it as a code assignment table for letters. Each letter is assigned a numeric value and uses 1B (8 bit) memory. If this is expressed in hexadecimal, the character `1` can be matched as `0x31`. ASCII codes consist of alphabets, numeric characters, and control characters, and are defined in ascending order. For table of ASCII codes, refer to [Table][Linkh]. 

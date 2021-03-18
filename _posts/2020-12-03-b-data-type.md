@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "[C] Data Type 자료형"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+comments: true
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
 
 Data type means the type of variables. Variables refer to an object to transfer or store a value as the code proceeds. In particular, since C is a programming language that can access memory addresses, it is important to set an appropriate type according to the type of data for efficient coding. Data types mainly used in C language are as follows.

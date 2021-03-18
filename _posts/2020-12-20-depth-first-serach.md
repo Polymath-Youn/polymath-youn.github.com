@@ -1,10 +1,17 @@
 ---
-layout: post
+layout: single
 title:  "[C] DFS(Depth First Search) 깊이 우선 탐색"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
+	- Algorithm
 ---
+
 
 When explaining the [graph][graph] data structure, we learned about the path. The list of vertices that goes through to move from vertex `A` to `B` may be different, and thus each may have different path lengths. Typical methods for searching a path are `DFS` and `BFS`. In this article, I will focus on depth first search. In route search, if there is one length, the number of cases will also be one, but when a selectable branch is encountered, a criterion for decision is required. Depth first search is literally a search method that goes deep first. After proceeding to the end of the search in one direction, come back and search the other way. For example, when preparing for an exam for 4 subjects, DFS is a method of studying from volume 1 to the end and moving to volume 2. This is different from the BFS method in which all four books are studied one chapter at a time.
 

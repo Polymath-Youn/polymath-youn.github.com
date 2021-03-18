@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "[C] Permutation, Combination, 순열, 조합"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
+    - Algorithm
 ---
 
 

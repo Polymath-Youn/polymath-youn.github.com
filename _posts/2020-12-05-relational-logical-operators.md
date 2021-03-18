@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "[C] Relational, logical, and ternary operators 관계, 논리, 그리고 삼항연산자"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+comments: true
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
 
 

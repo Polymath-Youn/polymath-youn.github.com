@@ -1,10 +1,17 @@
 ---
-layout: post
+layout: single
 title:  "[C] Simple sort, 단순 정렬"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
+    - Algorithm
 ---
+
 
 Of the various algorithms for sorting elements in an array, `Simple sort` is the simplest. `Simple sort` is in principle the same as `Bubble sort`. Basically, it is implemented through a double `for` loop, the outer `for` loop moves the position to be sorted, and the inner `for` loop searches for the comparison target. In ascending order, it compares the first array value with all remaining values and replaces each time a small value is displayed, and compares the second array value with the remaining values and replaces each time a small value appears. Because it is implemented through a double `for` statement, it has a time complexity of O(n^2).
 

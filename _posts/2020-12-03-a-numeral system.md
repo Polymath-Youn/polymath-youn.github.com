@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "[C] Numeral System 기수법"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+comments: true
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
 
 

@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "[C] Declaration of variables and functions 변수와 함수의 선언"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+comments: true
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
 
 

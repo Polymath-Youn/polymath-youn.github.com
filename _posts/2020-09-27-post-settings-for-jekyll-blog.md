@@ -4,6 +4,9 @@ title:  "Post settings for jekyll blog 지킬 블로그 게시글 설정"
 comments: true
 categories:
     - Gitblog
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
 tags: 
     - Jekyll
     - Gitblog

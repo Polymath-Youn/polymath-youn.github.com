@@ -1,10 +1,16 @@
 ---
-layout: post
+layout: single
 title:  "[C] Pointer application, 포인터 활용"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
+
 
 The pointer concept is simple, but the use case is confusing, so let's look at a few simple functions. The first is when you use an increment operator and a pointer together. Both `*a++` and `*++a` are processed according to the priority of the operator as described in [operation][op]. First, in the case of `*a++`, the dereferencing operation, which is a unary operator close to a, is executed, receives the value, prints it, and then increases the address of the pointer variable `a` by 1. In the case of `*++a`, the address of a is increased by 1 first, and the corresponding value is returned by riding the changed address. In the case of `(*a)++`, the dereference operation is performed first, inverses the value, and then increases the value by 1. Let's look at a simple example to help you understand.
 

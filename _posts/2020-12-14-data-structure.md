@@ -1,10 +1,16 @@
 ---
-layout: post
+layout: single
 title:  "[C] Data Structure, 자료구조"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
+
 
 Data structure in the dictionary sense is to express, store, and organize data in order to efficiently process data. In designing a software program, selecting an appropriate data structure in terms of implementation difficulty or dependence on the final result is an item that should be prioritized over others. The reason why data structures are always intensively treated in coding tests and evaluations is also based on this importance, and most languages provide basic data structures as standard libraries.
 

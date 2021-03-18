@@ -5,6 +5,9 @@ exerpt: "무엇에 쓰는 물건인고"
 comments: true
 categories:
     - Gitblog
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
 tags: 
     - Markdown
     - Gitblog

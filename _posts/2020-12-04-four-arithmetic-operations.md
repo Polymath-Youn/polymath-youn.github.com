@@ -1,10 +1,17 @@
 ---
-layout: post
+layout: single
 title:  "[C] Four arithmetic operations 사칙연산"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+comments: true
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
+
 
 In order to correctly perform the four arithmetic operations in the `c` language, it is necessary to understand the data types, operators, and operation precedence. Data types were discussed in [Data Type][Data Type]. Among the four arithmetic operations, the value and operation differ depending on the data type for division. In the case of the division operator, the operation between `float` is the same as the general division operation. However, when using the division operator for `int`, only the quotient is taken. In addition, `%` sign performs modulus operation, discarding the quotient and taking only the remainder, and only `int` can be used.
 

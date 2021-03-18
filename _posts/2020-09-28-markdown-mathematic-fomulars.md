@@ -4,6 +4,9 @@ title:  "Markdown mathematic formulars 마크다운 수식"
 comments: true
 categories:
     - Gitblog
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
 tags: 
     - Markdown
     - Gitblog

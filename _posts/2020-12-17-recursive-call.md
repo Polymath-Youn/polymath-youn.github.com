@@ -1,9 +1,14 @@
 ---
-layout: post
+layout: single
 title:  "[C] Recursive call, 재귀호출"
-author: software-engineer
-categories: [ C ]
-image: assets/images/candcplus.png
+categories:
+    - C/C++
+toc: true
+toc_label: "Contents Table"
+toc_icon: "list"
+tags: 
+    - C
+    - Programming
 ---
 
 
