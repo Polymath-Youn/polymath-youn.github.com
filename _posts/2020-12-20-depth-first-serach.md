@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[C] DFS(Depth First Search) 깊이우선탐색"
+title:  "[C] DFS(Depth First Search) 깊이우선탐색"
 categories:
     - C/C++
 toc: true
@@ -9,7 +9,7 @@ toc_icon: "list"
 tags: 
     - C
     - Programming
-	- Algorithm
+    - Algorithm
 ---
 
 
