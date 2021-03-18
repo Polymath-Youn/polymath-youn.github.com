@@ -9,8 +9,9 @@ toc_icon: "list"
 tags: 
     - C
     - Programming
-	- Algorithm
+    - Algorithm
 ---
+
 
 
 In this article, I will focus on breadth first search. BFS is a search algorithm that proceeds in the form of an octopus when the list of vertices going from vertex `A` to `B` is different. After visiting each of the next depth vertices from the starting vertex, the adjacent vertices are visited again starting with the visited vertex. As an analogy, unlike DFS, which visits one of the city's tourist attractions and moves to the next one, it is a navigation method that goes back to the second floor of all tourist attractions after going to the first floor of every tourist attraction in the city. If the information you are looking for is the lowest level of tourist attractions, BFS is the most suitable. In other words, BFS is a very efficient search method in that it guarantees the minimum distance. BFS has a first-in-first-out structure, and because queues also have a first-in-first-out structure, BFS is implemented based on a queue.
