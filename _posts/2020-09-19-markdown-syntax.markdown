@@ -1,7 +1,6 @@
 ---
 layout: single
-title:  "Markdown syntax 마크다운 문법"
-exerpt: "무엇에 쓰는 물건인고"
+title:  "Markdown syntax"
 comments: true
 categories:
     - Gitblog
@@ -13,6 +12,7 @@ tags:
     - Gitblog
     - Syntax
 ---
+
 
 This blog has a default layout which includes the stlye of first letter having 3ea. Also it is a `gitblog` type blog on `jekyll` structure. `Mundana` is being used as one of the `jekyll` theme. 
 
