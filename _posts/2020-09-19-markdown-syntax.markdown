@@ -14,11 +14,11 @@ tags:
 ---
 
 
-This blog has a default layout which includes the stlye of first letter having 3ea. Also it is a `gitblog` type blog on `jekyll` structure. `Mundana` is being used as one of the `jekyll` theme. 
+This blog, like most `gitblog`, is based on `jekyll` written in `ruby` language. `jekyll` acts as an interpreter that receives files written in `md` and `Markdown` as input and converts them into static web pages. So, in this article, I would like to summarize the Markdown grammar. 
 
 
-### Contents format 본문 서식  
-+ Header 제목
+### Contents format   
++ Header 
     + Output  
   
   
@@ -39,7 +39,7 @@ This blog has a default layout which includes the stlye of first letter having 3
     ###### h6
      ``` 
 
-+ Blockquote 인용
++ Blockquote 
     + Output
         > quotes
         >   > quotes
@@ -50,7 +50,7 @@ This blog has a default layout which includes the stlye of first letter having 3
         \>  >   > quotes
   
   
-+ Font style 글자 서식
++ Font style 
 
 
     | Syntax               | Output              |
@@ -63,7 +63,7 @@ This blog has a default layout which includes the stlye of first letter having 3
     | \<u>Underline\</u>   | <u>Underline</u>    |  
       
       
-+ Ordered list 리스트 (순서)
++ Ordered list 
     + Output 
         1. o-list
         1. o-list
@@ -73,11 +73,10 @@ This blog has a default layout which includes the stlye of first letter having 3
     + Syntax  
         \1. o-list  
         \1. o-list  
-        \1. o-list  
-        \1. o-list  
+        \1. o-list    
         \2. o-list  
 
-+ Unordered list 리스트 (순서x)
++ Unordered list 
     + Output
         * uo-list
             - uo-list
@@ -88,10 +87,10 @@ This blog has a default layout which includes the stlye of first letter having 3
                 \+ un-list
 
 
-### Contents sytle 문서 서식
+### Contents sytle 
 
 
-+ Table 테이블 
++ Table  
     + Output
 
 
@@ -108,7 +107,7 @@ This blog has a default layout which includes the stlye of first letter having 3
         | Content 1 | Content 3 |
         | Content 2 | Content 4 |
     ```  
-+ Table align 테이블 정렬
++ Table align 
     + Output
 
   
@@ -143,24 +142,24 @@ This blog has a default layout which includes the stlye of first letter having 3
 
     ```c
         void f()
-            printf(%s, "이것은 c 코드 입니다");          
+            printf(%s, "This is c code");          
     ```
 
 
         ``` c   
             void f()  
-                printf(%s, "이것은 c 코드 입니다");  
+                printf(%s, "This is c code");  
         ```
 
 
-+ Inline code block 인라인 코드 블록 
++ Inline code block  
     + Output  
     `Inline code block`  
     + Syntax  
     \`Inline code block`
 
 
-+ Horizontal line 수평선
++ Horizontal line 
     + Output
 
 
@@ -187,7 +186,7 @@ This blog has a default layout which includes the stlye of first letter having 3
 
 
         \[^id]: footnote explanation  
-+ Expander  접기/펼치기
++ Expander  
     + Output  
         <details>
          <summary>Fold</summary>  
@@ -226,8 +225,8 @@ This blog has a default layout which includes the stlye of first letter having 3
     ```
 
 
-## etc 기타 서식
-+ Block setting 블록 설정
+## etc 
++ Block setting 
     + Output
 
 
@@ -239,8 +238,8 @@ This blog has a default layout which includes the stlye of first letter having 3
         <div markdown="1">block setting</div>
         ```
 
-+ Image 이미지
-    + Output
++ Image 
+    + Output  
     ![image_example_1]({{ site.baseurl }}/assets/images/8.jpg)
     ![image_example_2][image_link]
 
@@ -256,7 +255,7 @@ This blog has a default layout which includes the stlye of first letter having 3
         [image_link]: {{ site.baseurl }}/assets/images/8.jpg
     ```
 
-+ Video 비디오  
++ Video   
     + Output
 
         
