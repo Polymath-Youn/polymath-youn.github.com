@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[C] Algorithm Backjoon 14502 연구소"
+title:  "[C] Backjoon 14502 연구소"
 categories:
     - C/C++
 toc: true
@@ -10,8 +10,9 @@ tags:
     - C
     - Programming
     - Algorithm
-	- Backjoon
+    - Backjoon
 ---
+
 
 
 백준 14502번 문제는 연구소이다. 문제에 대한 내용과 그림 등은 [백준][백준]에서 직접 확인하길 바란다. 복잡하지 않은 알고리즘 문제에서는 바로 코딩을 해도 되지만, 문제를 분석하고 어떤 함수와 요소들을 활용하여 문제를 해결할지 고민하고 정리하는 것이 시행착오를 줄일 수 있다. 
@@ -162,7 +163,3 @@ int main() {
 
 
 [백준]: https://www.acmicpc.net/problem/14502
-
-
-
-
