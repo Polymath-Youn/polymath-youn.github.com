@@ -83,4 +83,4 @@ The result of the operation varies depending on whether the increment/decrement 
 
 
 
-[Data Type]: https://mbyun1420.github.io/b-data-type/
+[Data Type]: https://polymath-youn.github.io/polymath-youn.github.com/c/c++/b-data-type/
