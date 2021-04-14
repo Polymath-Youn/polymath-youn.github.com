@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[C] Algorithm Backjoon 16637 괄호 추가하기"
+title:  "[C] Backjoon 16637 괄호 추가하기"
 categories:
     - C/C++
 toc: true
@@ -10,7 +10,7 @@ tags:
     - C
     - Programming
     - Algorithm
-	- Backjoon
+    - Backjoon
 ---
 
 
