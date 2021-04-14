@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[C] Algorithm Backjoon 17471 게리맨더링"
+title:  "[C] Backjoon 17471 게리맨더링"
 categories:
     - C/C++
 toc: true
@@ -10,9 +10,8 @@ tags:
     - C
     - Programming
     - Algorithm
-	- Backjoon
+    - Backjoon
 ---
-
 
 
 
