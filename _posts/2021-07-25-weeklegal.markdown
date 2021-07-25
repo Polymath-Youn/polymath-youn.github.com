@@ -14,8 +14,8 @@ tags:
 ### Reference
 
 
-소순무. 변화하고 있는 우리의 법률시장. 대학교육 http://magazine.kcue.or.kr/last/popup.html?no=3585
-이지성. 법률시장 개방 7년...기 못펴는 외국계로. 서울경제. 2019.11.04. https://www.sedaily.com/NewsVIew/1VQO24PKRC
+소순무. 변화하고 있는 우리의 법률시장. 대학교육 http://magazine.kcue.or.kr/last/popup.html?no=3585  
+이지성. 법률시장 개방 7년...기 못펴는 외국계로. 서울경제. 2019.11.04. https://www.sedaily.com/NewsVIew/1VQO24PKRC  
 김진원. [리걸타임즈 칼럼] 법률시장 개방 10년. Legal Times. 2021.07.05. https://www.legaltimes.co.kr/news/articleView.html?idxno=61289 
 
 ### Introduction
