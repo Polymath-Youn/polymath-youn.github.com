@@ -1,0 +1,37 @@
+---
+author: Youn
+pubDatetime: 2020-12-02T00:00:00Z
+title: "[C] Hello World"
+postSlug: "c-basic1"
+featured: false
+draft: false
+tags:
+  - c
+  - programming
+description: "The first thing you do learning a programming language is to print Hello World. It is a representative learning stage so ther is a HelloWorl..."
+---
+
+
+
+The first thing you do learning a programming language is to print `Hello World`. It is a representative learning stage so ther is a [HelloWorld][Linkh] series for each programming language. The reason people first introduce and learn the `Hello World` output is because it's the simplest way to show that the code works fine.
+
+
+
+```c
+    #include <stdio.h>
+
+    int main(void){
+        printf("Hello World");  
+
+        return 0;
+    }
+                
+```
+
+
+Looking at the code for displaying `Hello world`, `stdio.h` is declared with `#include` in the first line. A header file with the `.h` extension can be easily understood if you think of it as a source code file to use by writing a function in advance. The `printf` function is a standard library that exists in the `stdio.h` header file. Therefore, when using `printf`, always declare `stdio.h` file at the beginning.  
+(Such as `stdio.h` file are automatically provided by the compiler every time)
+
+
+
+[Linkh]: https://learn.excelwithbusiness.com/blog/post/web-design/say-hello-world-in-28-different-programming-languages

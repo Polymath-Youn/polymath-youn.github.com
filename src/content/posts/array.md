@@ -1,0 +1,135 @@
+---
+author: Youn
+pubDatetime: 2020-12-07T00:00:00Z
+title: "[C] Array"
+postSlug: "array"
+featured: false
+draft: false
+tags:
+  - c
+  - programming
+description: "In Data typeData type, a data type was declared for one variable and a value was assigned. However, it is very inefficient to declare 100 va..."
+---
+
+
+
+In [Data type][Data type], a data type was declared for one variable and a value was assigned. However, it is very inefficient to declare 100 variables for 100 values. `Arrays` are used to manipulate multiple values like this. An `array`can be understood as a set of the same data types and managed as one. To use an array, you need to declare the data type and the number of elements. In this case, use square brackets to declare element number, and use curly brackets to declare initial values.
+
+
+
+```c
+int x[element number]={initial value, };
+```
+
+
+After declaring the array, it is possible to access each element. It is accessed using square brackets in the same way as the declaration for element number, but the element reference range starts from `0` and `element number(N)-1`.
+
+
+
+```c
+    #include <stdio.h>
+    
+    int x[5];
+    char y[5];
+
+    int main(void){
+        
+        int a[3]={1,2,3};
+        int b[4]={10,};
+        int c[10]={0,};
+
+
+        char ca[3]={'a','b','c'};
+        char cb[3]="AB";
+        char cc[3]={'\0',};
+
+
+        int dir[]={1,0,-1,0};
+
+
+        return 0;
+    }
+          
+```
+
+When declaring an array, initialization must be performed when declaring it as a local variable, and when declaring it as a global variable, all elements are automatically initialized to `0` or `'\0'`. If the number of values smaller than the size of the array is declared, the remaining values are automatically assigned as `0` or `'\0'`. In particular, the initialization for declaring 0 in local variables is often used. Conversely, when all the initialization values are allocated, the element number in the array can be omitted. However, it is not possible to initialize by using more elements than the size of the array. In the case of strings, the null character `'\0'` character is always included at the end, so be careful when calculating the size of the array.
+
+
+
+
+```c
+    #include <stdio.h>
+
+    int main(void){
+        
+        int a[10]={0,};
+
+        for(int i=0; i<10; i++){
+            scanf("%d", &a[i]);
+        }
+
+
+        char b[10]={'\0',};
+
+        scanf("%s", b);
+
+
+        for(int i=0; i<10; i++){
+            printf("%d", a[i]);
+        }
+
+        printf("\n%s", b);
+
+        return 0;
+    }         
+
+```
+
+```
+1 2 3 4 5 6 7 8 9 10
+test
+12345678910
+test
+```
+
+
+- Multidimensional array 다차원 배열 
+
+
+Multidimensional arrays can be declared using consecutive square brackets, and their properties are the same as one-dimensional arrays. Although the term multi-dimensional was used, the order or method in which the arrays are stored in memory is performed sequentially, and for accessing and understanding the elements of each array, this article understands the same as `x[row][column]` in the case of a two-dimensional array.
+
+
+
+As the dimension of the array increases and the size of the array increases, it is difficult to check element number in the array every time, so a form using the `sizeof` function is often used. The element number in the first dimension is `sizeof(a)/sizeof(a[0])`, and the element number in the second dimension is calculated as `sizeof(a[0])/sizeof(a[0][0])`.
+
+
+
+```c
+    #include <stdio.h>
+    int main(void){
+        
+        int a[3][3]={ {1,2,3}, {1,2,3}, {1,2,3} };
+
+        for(int i=0; i<3;i++){
+            for(int j=0; j<3; j++){
+                printf("%d", a[i][j]);
+            }
+        }
+
+        for(int i=0; i < sizeof(a) / sizeof(a[0]) ; i++){
+            for(int j=0; j < sizeof(a[0]) / sizeof(a[0][0]) ; j++){
+                printf("%d", a[i][j]);
+            }
+        }
+
+        return 0;
+    }        
+```
+
+```
+123123123
+123123123
+```
+
+
+[Data type]: https://polymath-youn.github.io/polymath-youn.github.com/c/c++/b-data-type/

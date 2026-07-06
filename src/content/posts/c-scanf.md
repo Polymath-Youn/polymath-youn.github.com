@@ -1,0 +1,57 @@
+---
+author: Youn
+pubDatetime: 2020-12-03T00:00:00Z
+title: "[C] scanf"
+postSlug: "c-scanf"
+featured: false
+draft: false
+tags:
+  - c
+  - programming
+description: "scanf function also has a letter f ,formatted as printf meaning that it can specify the format. scanf function accepts input and is a standa..."
+---
+
+
+
+`scanf` function also has a letter `f` ,`formatted` as `printf` meaning that it can specify the format. `scanf` function accepts input and is a standard library function like `printf`, so when using it, `#include <stdio.h>` must be declared at the beginning. Unless otherwise specified for the input device, `scanf` input comes through the standard input system, and usually receives keyboard input. The function refers to the memory address of the variable to assign the input (About the memory addresses are covered later). It passes the address of a variable, an array, or a structure, and is classified by a `&` mark.
+
+
+
+In the case of visual stdio, a warning appears when compiling, and a warning to use scanf_s appears. To ignore the warning, write `#define _CRT_SECURE_NO_WARNINGS` or write `#programa waring(disable:4996)`.  
+When receiving the `int` data type as input, the `%d` format specifier is used, and each input is separated by white space (space, tab, enter). When receiving `char` data type as input, use the `%c` format specifier. When receiving `string` as input, `%s` is used, and in the case of characters, all white spaces are classified as input.
+
+
+
+
+```c
+    #include <stdio.h>
+
+    int main(void){
+        int a;
+        char b;
+        char c[10];
+
+        scanf("%d", &a);
+        scanf("%c", &b);
+        scanf("%s", c);
+        printf("\n");
+        printf("%d\n", a);
+        printf("%c\n", b);
+        printf("%s\n", c);
+
+        return 0;
+    }   
+```
+
+
+```
+4s spring
+
+4
+s
+spring
+
+```
+
+
+

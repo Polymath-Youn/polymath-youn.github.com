@@ -1,0 +1,127 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+//  한글 font 설정 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/* ==========================================================================
+   Custom Portfolio & Grid Card Styles
+   ========================================================================== */
+
+// 카드 그리드 아이템 재정의
+.entries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1em;
+  margin-right: -1em;
+
+  .grid__item {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+
+    @media (min-width: 600px) {
+      width: 50%;
+    }
+    @media (min-width: 1024px) {
+      width: 33.333%;
+    }
+  }
+}
+
+// 개별 카드 아이템 스타일
+.grid__item {
+  .archive__item {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    padding: 1.5em;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    // contrast 스킨이나 다크 모드 스킨을 고려한 색상 대응
+    .theme-style-dark &,
+    &.dark-card {
+      background: #1e1e1e;
+      border-color: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+      border-color: rgba(0, 0, 0, 0.15);
+
+      &:hover {
+        .archive__item-title a {
+          color: #0076df; // 호버 시 제목 파란색 하이라이트
+        }
+      }
+    }
+  }
+
+  // 티저 이미지(썸네일) 스타일
+  .archive__item-teaser {
+    margin: -1.5em -1.5em 1.2em -1.5em;
+    max-height: 180px;
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+  }
+
+  .archive__item:hover .archive__item-teaser img {
+    transform: scale(1.05); // 호버 시 이미지 미세 줌 인
+  }
+
+  // 제목 스타일
+  .archive__item-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s ease;
+      
+      &:hover {
+        color: #0076df;
+      }
+    }
+  }
+
+  // 글 본문 요약 (excerpt)
+  .archive__item-excerpt {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+    flex-grow: 1;
+  }
+
+  // 작성일, 읽기 시간 등 메타정보
+  .page__meta {
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 0.8em;
+  }
+}
