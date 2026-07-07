@@ -1,23 +1,22 @@
+import type { ShikiTransformer } from "shiki";
+
+export interface TransformerFileNameOptions {
+  style?: "v1" | "v2";
+  hideDot?: boolean;
+}
+
 /**
- * CustomShiki transformer that adds file name labels to code blocks.
- *
- * This transformer looks for the `file="filename"` meta attribute in code blocks
- * and creates a styled label showing the filename. It supports two different
- * styling options and can optionally hide the green dot indicator.
- *
- * @param {Object} options - Configuration options for the transformer
- * @param {string} [options.style="v2"] - The styling variant to use
- *   - `"v1"`: Tab-style with rounded top corners, positioned at top-left
- *   - `"v2"`: Badge-style with border, positioned at top-left with offset
- * @param {boolean} [options.hideDot=false] - Whether to hide the green dot indicator
+ * Custom Shiki transformer that adds file name labels to code blocks.
  */
 export const transformerFileName = ({
   style = "v2",
   hideDot = false,
-} = {}) => ({
-  pre(node) {
+}: TransformerFileNameOptions = {}): ShikiTransformer => ({
+  name: "transformer-file-name",
+  pre(this: any, node) {
     // Add CSS custom property to the node
     const fileNameOffset = style === "v1" ? "0.75rem" : "-0.75rem";
+    node.properties = node.properties || {};
     node.properties.style =
       (node.properties.style || "") + `--file-name-offset: ${fileNameOffset};`;
 
@@ -25,7 +24,7 @@ export const transformerFileName = ({
 
     if (!raw) return;
 
-    const metaMap = new Map();
+    const metaMap = new Map<string, string>();
 
     for (const item of raw) {
       const [key, value] = item.split("=");
@@ -64,6 +63,6 @@ export const transformerFileName = ({
           value: file,
         },
       ],
-    });
+    } as any);
   },
 });
