@@ -1,0 +1,208 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/components/Main.astro";
+import { galleryData } from "@/data/gallery";
+import config from "@/config";
+
+const pageTitle = `Gallery | ${config.site.title}`;
+const pageDesc = "Instagram-style photo gallery featuring AI, Semiconductor, IP Law & Life memories.";
+---
+
+<Layout title={pageTitle} description={pageDesc}>
+  <Header />
+
+  <Main pageTitle="Gallery" pageDesc={pageDesc}>
+    <!-- Gallery Grid Container -->
+    <div class="gallery-container my-8">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+        {
+          galleryData.map(item => (
+            <div
+              class="gallery-card group border-border/60 bg-muted/30 relative aspect-square cursor-pointer overflow-hidden rounded-xl border shadow-sm transition-all duration-300 hover:shadow-lg"
+              data-id={item.id}
+              data-title={item.title}
+              data-caption={item.caption}
+              data-image={item.imageUrl}
+              data-date={item.date}
+              data-likes={item.likes}
+              data-location={item.location}
+            >
+              <!-- Background Image -->
+              <img
+                src={item.imageUrl}
+                alt={item.title}
+                loading="lazy"
+                class="size-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+
+              <!-- Watermark Overlay -->
+              <div class="pointer-events-none absolute right-2 bottom-2 z-10 select-none rounded bg-black/40 px-2 py-0.5 text-[10px] font-medium tracking-wider text-white/80 backdrop-blur-sm">
+                © mb.youn
+              </div>
+
+              <!-- Transparent Protection Shield Overlay -->
+              <div class="absolute inset-0 z-20 bg-transparent" aria-hidden="true" />
+
+              <!-- Hover Overlay (Instagram Style) -->
+              <div class="absolute inset-0 z-30 flex flex-col justify-between bg-gradient-to-t from-black/80 via-black/30 to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <div class="flex items-center justify-between text-white/90">
+                  <span class="text-xs font-semibold uppercase tracking-wider">
+                    {item.location || "Gallery"}
+                  </span>
+                  <span class="text-xs opacity-75">{item.date}</span>
+                </div>
+
+                <div class="transform transition-transform duration-300 group-hover:translate-y-0">
+                  <h3 class="line-clamp-1 text-base font-bold text-white">
+                    {item.title}
+                  </h3>
+                  <p class="mt-1 line-clamp-2 text-xs text-white/80">
+                    {item.caption}
+                  </p>
+                  {item.likes && (
+                    <div class="mt-2 flex items-center space-x-1 text-xs text-red-400">
+                      <span>❤️</span>
+                      <span class="font-medium text-white/90">{item.likes}</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div
+      id="gallery-modal"
+      class="fixed inset-0 z-50 flex hidden items-center justify-center bg-black/80 p-4 backdrop-blur-md transition-opacity duration-300 opacity-0"
+    >
+      <div
+        id="modal-backdrop"
+        class="absolute inset-0"
+      ></div>
+
+      <div
+        class="border-border bg-background relative z-10 flex max-h-[90vh] w-full max-w-3xl flex-col overflow-hidden rounded-2xl border shadow-2xl md:flex-row"
+      >
+        <!-- Modal Image Container -->
+        <div class="bg-black/90 relative flex aspect-square items-center justify-center overflow-hidden md:w-3/5 md:aspect-auto">
+          <img
+            id="modal-image"
+            src=""
+            alt=""
+            class="size-full object-contain"
+          />
+          <div class="pointer-events-none absolute right-3 bottom-3 z-10 select-none rounded bg-black/50 px-2.5 py-1 text-xs font-medium text-white/90 backdrop-blur-sm">
+            © mb.youn
+          </div>
+          <!-- Transparent Protection Shield in Modal -->
+          <div class="absolute inset-0 z-20 bg-transparent" />
+        </div>
+
+        <!-- Modal Info Section -->
+        <div class="flex flex-1 flex-col justify-between p-6">
+          <div>
+            <div class="flex items-center justify-between border-b border-border/50 pb-3">
+              <span id="modal-location" class="text-xs font-bold uppercase tracking-wider text-accent"></span>
+              <span id="modal-date" class="text-xs text-muted-foreground"></span>
+            </div>
+
+            <h2 id="modal-title" class="mt-4 text-xl font-bold text-foreground"></h2>
+            <p id="modal-caption" class="mt-2 text-sm leading-relaxed text-muted-foreground"></p>
+          </div>
+
+          <div class="mt-6 flex items-center justify-between border-t border-border/50 pt-4">
+            <div class="flex items-center space-x-1.5 text-sm text-red-500">
+              <span>❤️</span>
+              <span id="modal-likes" class="font-semibold text-foreground"></span>
+            </div>
+
+            <button
+              id="modal-close-btn"
+              class="bg-muted hover:bg-accent hover:text-accent-foreground rounded-lg px-4 py-2 text-xs font-semibold text-foreground transition-colors"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+
+        <!-- Top Right Close Icon for Mobile -->
+        <button
+          id="modal-close-icon"
+          class="absolute top-3 right-3 z-30 flex size-8 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-sm transition-transform hover:scale-110 md:hidden"
+          aria-label="Close modal"
+        >
+          ✕
+        </button>
+      </div>
+    </div>
+  </Main>
+
+  <Footer />
+</Layout>
+
+<script>
+  function setupGalleryModal() {
+    const cards = document.querySelectorAll(".gallery-card");
+    const modal = document.querySelector("#gallery-modal") as HTMLElement;
+    const backdrop = document.querySelector("#modal-backdrop");
+    const closeBtn = document.querySelector("#modal-close-btn");
+    const closeIcon = document.querySelector("#modal-close-icon");
+
+    const modalImage = document.querySelector("#modal-image") as HTMLImageElement;
+    const modalTitle = document.querySelector("#modal-title");
+    const modalCaption = document.querySelector("#modal-caption");
+    const modalDate = document.querySelector("#modal-date");
+    const modalLocation = document.querySelector("#modal-location");
+    const modalLikes = document.querySelector("#modal-likes");
+
+    if (!modal || !cards.length) return;
+
+    function openModal(card: Element) {
+      const el = card as HTMLElement;
+      if (modalImage) modalImage.src = el.dataset.image || "";
+      if (modalTitle) modalTitle.textContent = el.dataset.title || "";
+      if (modalCaption) modalCaption.textContent = el.dataset.caption || "";
+      if (modalDate) modalDate.textContent = el.dataset.date || "";
+      if (modalLocation) modalLocation.textContent = el.dataset.location || "Gallery";
+      if (modalLikes) modalLikes.textContent = `${el.dataset.likes || 0} likes`;
+
+      modal.classList.remove("hidden");
+      requestAnimationFrame(() => {
+        modal.classList.remove("opacity-0");
+        modal.classList.add("opacity-100");
+      });
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+      modal.classList.remove("opacity-100");
+      modal.classList.add("opacity-0");
+      setTimeout(() => {
+        modal.classList.add("hidden");
+        document.body.style.overflow = "";
+      }, 300);
+    }
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => openModal(card));
+    });
+
+    backdrop?.addEventListener("click", closeModal);
+    closeBtn?.addEventListener("click", closeModal);
+    closeIcon?.addEventListener("click", closeModal);
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+        closeModal();
+      }
+    });
+  }
+
+  setupGalleryModal();
+  document.addEventListener("astro:page-load", setupGalleryModal);
+</script>

@@ -117,11 +117,58 @@ const rssHref = getRelativeLocaleUrl(
     <ClientRouter />
   </head>
   <body
-    class="bg-background font-app text-foreground selection:bg-accent/75 selection:text-accent-foreground flex min-h-svh flex-col"
+    class="bg-background font-app text-foreground selection:bg-accent/75 selection:text-accent-foreground flex min-h-svh flex-col select-none"
   >
     <slot />
     <script>
       import "@/scripts/theme";
+    </script>
+    <script is:inline>
+      (function () {
+        function protectContent() {
+          // Disable contextmenu (Right click)
+          document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+          });
+
+          // Disable dragstart & selectstart
+          document.addEventListener("dragstart", function (e) {
+            e.preventDefault();
+          });
+          document.addEventListener("selectstart", function (e) {
+            // Allow inputs & textareas if any
+            const target = e.target;
+            if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA")) return;
+            e.preventDefault();
+          });
+
+          // Disable copy & cut
+          document.addEventListener("copy", function (e) {
+            e.preventDefault();
+          });
+          document.addEventListener("cut", function (e) {
+            e.preventDefault();
+          });
+
+          // Disable key combinations (Ctrl+C, Ctrl+A, Ctrl+U, F12, PrintScreen)
+          document.addEventListener("keydown", function (e) {
+            const isCtrl = e.ctrlKey || e.metaKey;
+            const key = e.key.toLowerCase();
+            if (
+              (isCtrl && (key === "c" || key === "a" || key === "u" || key === "s" || key === "p")) ||
+              e.key === "F12" ||
+              e.key === "PrintScreen"
+            ) {
+              // Allow input/textarea selection/copy
+              const target = e.target;
+              if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA")) return;
+              e.preventDefault();
+            }
+          });
+        }
+        protectContent();
+        document.addEventListener("astro:page-load", protectContent);
+      })();
     </script>
   </body>
 </html>

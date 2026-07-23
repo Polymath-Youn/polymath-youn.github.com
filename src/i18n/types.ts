@@ -3,7 +3,7 @@ export interface UIStrings {
     home: string;
     posts: string;
     tags: string;
-    about: string;
+    gallery: string;
     archives: string;
     search: string;
   };
