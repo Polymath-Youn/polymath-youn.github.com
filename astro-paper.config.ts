@@ -29,7 +29,7 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "linkedin", url: "https://www.linkedin.com/in/%EC%9C%A4%EB%AA%85%EB%B0%B1/" },
-    { name: "mail",     url: "mailto:mbyun1420@gmail.com" },
+    { name: "mail",     url: "mailto:" + "mbyun1420" + "@" + "gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
