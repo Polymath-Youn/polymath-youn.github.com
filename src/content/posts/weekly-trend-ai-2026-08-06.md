@@ -1,6 +1,6 @@
 ---
 author: Youn
-pubDatetime: 2026-08-06T11:43:53Z
+pubDatetime: 2026-08-06T11:47:09Z
 title: "[Trend] 2026-08-06 주간 기술 트렌드 - AI"
 postSlug: "weekly-trend-ai-2026-08-06"
 featured: false
@@ -8,21 +8,21 @@ draft: false
 tags:
   - ai
   - trend
-description: "⚠️ 생성 실패"
+description: "인공지능은 전통적인 영역을 넘어 엔터테인먼트, 공공의료, 교육, 건설 등 다양한 산업으로 빠르게 확산되고 있습니다. 알파폴드3의 신약 후보물질 예측 정확도 향상과 데이터 프라이버시를 보호하는 연합 AI 모델 개발 등은 모델 효율성과 윤리적 활용 측면에서의 지속 가능한 ..."
 ---
 
 ## 전체 종합 트렌드 요약 (Overall Trend)
 
-⚠️ Failed to generate summary due to API error.
+Over the past week, the global technology landscape has been shaped by intensified competition in semiconductors, rapid AI adoption across industries, and a surge in intellectual property activity both domestically and internationally. In semiconductors, China's push for technological self-reliance, coupled with stricter IP enforcement and academic-industry collaborations, reflects a strategic realignment amid U.S. sanctions. The AI sector has expanded beyond traditional domains into entertainment, healthcare, education, and construction, driven by advancements in protein folding, federated learning, and quantum computing initiatives. Meanwhile, patent filings and disputes have escalated globally, with notable settlements between Samsung and Netlist, rising litigation risks prompting IP management consolidations, and increased academic and corporate patent outputs signaling heightened innovation momentum. These trends collectively underscore a growing emphasis on technological sovereignty, cross-sector integration, and robust IP protection strategies.
 
-⚠️ API 호출 실패로 요약을 생성하지 못했습니다.
+지난 한 주간 글로벌 기술 환경은 반도체 분야의 격화된 경쟁, AI의 산업 전반에 대한 급속한 확산, 그리고 국내외 특허 활동의 급증으로 형성되었습니다. 반도체 분야에서는 중국이 기술 자립을 추진하는 동시에 지식 재산권 보호 강화와 산학 협력이 확대되며, 미국 제재 속에서 전략적 재편을 이루고 있습니다. AI 분야는 단백질 폴딩, 연합 학습, 양자 컴퓨팅 기술의 발전을 바탕으로 엔터테인먼트, 의료, 교육, 건설 등 다양한 산업으로 확장되고 있습니다. 또한, 삼성전자와 넷리스트 간 특허 분쟁 해결이나 IP 관리 기업들의 인수합병 등을 통해 특허 출원 및 분쟁이 전 세계적으로 급증하고 있으며, 이는 높은 혁신 동력을 반영하고 있습니다. 이러한 흐름은 기술 주권 강화, 산간 융합, 그리고 강력한 지식 재산 보호 전략에 대한 관심을 동시에 보여주고 있습니다.
 
 ---
 ## AI 분야 트렌드 요약 (Category Trend)
 
-⚠️ Generation failed
+Artificial intelligence continued its rapid expansion across diverse sectors, moving beyond conventional applications into entertainment, public healthcare, education, and construction. Breakthroughs such as AlphaFold 3's enhanced drug discovery capabilities and federated AI models that preserve data privacy highlight ongoing innovation in model efficiency and ethical deployment. Governments and corporations alike are investing in AI-driven infrastructure, including quantum computing projects and smart city initiatives, while regulatory discussions around transparency and fairness in AI procurement and content creation gain traction.
 
-⚠️ 생성 실패
+인공지능은 전통적인 영역을 넘어 엔터테인먼트, 공공의료, 교육, 건설 등 다양한 산업으로 빠르게 확산되고 있습니다. 알파폴드3의 신약 후보물질 예측 정확도 향상과 데이터 프라이버시를 보호하는 연합 AI 모델 개발 등은 모델 효율성과 윤리적 활용 측면에서의 지속 가능한 혁신을 보여주고 있습니다. 정부와 기업 모두가 양자 컴퓨팅 프로젝트와 스마트 시티 이니셔티브를 포함한 AI 기반 인프라에 투자하고 있으며, 공공 조달 및 콘텐츠 제작 분야에서의 투명성과 공정성에 대한 규제 논의가 활발히 이어지고 있습니다.
 
 ---
 ## 개별 문헌 내역

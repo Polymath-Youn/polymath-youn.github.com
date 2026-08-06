@@ -1,6 +1,6 @@
 ---
 author: Youn
-pubDatetime: 2026-08-06T11:43:53Z
+pubDatetime: 2026-08-06T11:47:09Z
 title: "[Trend] 2026-08-06 주간 기술 트렌드 - 국내 특허"
 postSlug: "weekly-trend-domestic-patent-2026-08-06"
 featured: false
@@ -9,21 +9,21 @@ tags:
   - patent
   - domestic
   - trend
-description: "⚠️ 생성 실패"
+description: "국내 특허 활동은 주요 법적 및 상업적 발전과 함께 급증했습니다. 삼성전자는 미국 넷리스트와 수십 조 원 규모의 특허 분쟁을 해결하고 새로운 공급 계약을 체결하며 전략적 IP 해결이라는 전례를 세웠습니다. 한양대학교를 비롯한 대학들은 기록적인 특허 출원 실적을 보이며 ..."
 ---
 
 ## 전체 종합 트렌드 요약 (Overall Trend)
 
-⚠️ Failed to generate summary due to API error.
+Over the past week, the global technology landscape has been shaped by intensified competition in semiconductors, rapid AI adoption across industries, and a surge in intellectual property activity both domestically and internationally. In semiconductors, China's push for technological self-reliance, coupled with stricter IP enforcement and academic-industry collaborations, reflects a strategic realignment amid U.S. sanctions. The AI sector has expanded beyond traditional domains into entertainment, healthcare, education, and construction, driven by advancements in protein folding, federated learning, and quantum computing initiatives. Meanwhile, patent filings and disputes have escalated globally, with notable settlements between Samsung and Netlist, rising litigation risks prompting IP management consolidations, and increased academic and corporate patent outputs signaling heightened innovation momentum. These trends collectively underscore a growing emphasis on technological sovereignty, cross-sector integration, and robust IP protection strategies.
 
-⚠️ API 호출 실패로 요약을 생성하지 못했습니다.
+지난 한 주간 글로벌 기술 환경은 반도체 분야의 격화된 경쟁, AI의 산업 전반에 대한 급속한 확산, 그리고 국내외 특허 활동의 급증으로 형성되었습니다. 반도체 분야에서는 중국이 기술 자립을 추진하는 동시에 지식 재산권 보호 강화와 산학 협력이 확대되며, 미국 제재 속에서 전략적 재편을 이루고 있습니다. AI 분야는 단백질 폴딩, 연합 학습, 양자 컴퓨팅 기술의 발전을 바탕으로 엔터테인먼트, 의료, 교육, 건설 등 다양한 산업으로 확장되고 있습니다. 또한, 삼성전자와 넷리스트 간 특허 분쟁 해결이나 IP 관리 기업들의 인수합병 등을 통해 특허 출원 및 분쟁이 전 세계적으로 급증하고 있으며, 이는 높은 혁신 동력을 반영하고 있습니다. 이러한 흐름은 기술 주권 강화, 산간 융합, 그리고 강력한 지식 재산 보호 전략에 대한 관심을 동시에 보여주고 있습니다.
 
 ---
 ## 국내 특허 분야 트렌드 요약 (Category Trend)
 
-⚠️ Generation failed
+Domestically, patent activity surged with significant legal and commercial developments. Samsung Electronics resolved a major patent dispute with U.S.-based Netlist through a multi-billion-dollar settlement and a new supply agreement, setting a precedent for strategic IP resolution. Universities like Hanyang University reported record-high patent filings, reflecting strong institutional commitment to innovation. Additionally, companies such as Cosmax and POSCO are actively leveraging patents to protect emerging technologies and expand into global markets, underscoring the role of IP as a key asset for corporate growth and technological leadership.
 
-⚠️ 생성 실패
+국내 특허 활동은 주요 법적 및 상업적 발전과 함께 급증했습니다. 삼성전자는 미국 넷리스트와 수십 조 원 규모의 특허 분쟁을 해결하고 새로운 공급 계약을 체결하며 전략적 IP 해결이라는 전례를 세웠습니다. 한양대학교를 비롯한 대학들은 기록적인 특허 출원 실적을 보이며 혁신에 대한 강한 의지를 드러이고 있습니다. 또한, 코스맥스와 포스코를 비롯한 기업들은 신흥 기술을 보호하고 글로벌 시장으로 진출하기 위해 특허를 적극적으로 활용하고 있어, IP가 기업 성장과 기술 리더십을 위한 핵심 자산으로 작용하고 있음을 보여주고 있습니다.
 
 ---
 ## 개별 문헌 내역
