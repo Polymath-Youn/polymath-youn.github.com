@@ -1,6 +1,6 @@
 ---
 author: Youn
-pubDatetime: 2026-08-06T12:02:14Z
+pubDatetime: 2026-08-06T12:13:52Z
 title: "[Trend] 2026-08-06 주간 기술 트렌드 - 반도체"
 postSlug: "weekly-trend-semiconductor-2026-08-06"
 featured: false
