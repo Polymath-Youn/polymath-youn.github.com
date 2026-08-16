@@ -9,21 +9,21 @@ tags:
   - patent
   - domestic
   - trend
-description: "⚠️ 생성 실패"
+description: "국내 특허 분야에서는 삼성중공업의 LNG 특허 승기 및 삼성전자-넷리스트 간 대규모 합의 등 주요 지식재산 분쟁이 주목받았습니다. 기업과 대학의 특허 출원 확대 및 직무발명 보상제도 활성화도 활발히 이어졌습니다."
 ---
 
 ## 전체 종합 트렌드 요약 (Overall Trend)
 
-⚠️ Failed to generate summary due to API error.
+During the first week of August 2026, global technology industries demonstrated active innovation and strategic legal defense across AI, semiconductors, and patent sectors. Key developments include the deep integration of AI into entertainment, public safety, and specialized industry skillsets, alongside major breakthroughs in bio-inspired neural hardware and optoelectronic chips. Concurrently, international intellectual property litigation intensified—spanning LNG technologies, memory disputes, and M&A activities aimed at managing patent risks—as nations and global corporations continue to strengthen IP security and technological sovereignty.
 
-⚠️ API 호출 실패로 요약을 생성하지 못했습니다.
+2026년 8월 첫째 주 전 세계 기술 산업에서는 AI, 반도체, 특허 분야 전반에 걸쳐 활발한 기술 혁신과 전략적 지식재산권 방어가 펼쳐졌습니다. AI 기술은 드라마·예능 등 엔터테인먼트 분야부터 공공의료, 금융권 전문 역량으로 깊숙이 침투하였으며, 반도체 분야에서는 광반도체 BCI 칩 및 뉴로모픽 소자 개발 등 물리적 한계를 극복하려는 시도가 이어졌습니다. 이와 함께 LNG 기술 승소, 대규모 특허 합의, 방어적 IP 연합 인수 등 기업 및 국가 차원의 기술 주권 확보 및 지식재산권 보호 노력이 한층 강화되었습니다.
 
 ---
 ## 국내 특허 분야 트렌드 요약 (Category Trend)
 
-⚠️ Generation failed
+Domestic intellectual property activities feature major developments including Samsung Heavy Industries' LNG patent victory, Samsung Electronics' large-scale settlement with Netlist, and active R&D patent filings by universities and enterprises. Additionally, legal mechanisms such as employee invention compensation schemes and patent court competitions are being actively highlighted.
 
-⚠️ 생성 실패
+국내 특허 분야에서는 삼성중공업의 LNG 특허분쟁 승기 및 삼성전자-넷리스트 간 대규모 특허 합의 등 굵직한 지식재산 분쟁과 합의가 이어졌습니다. 더불어 코스맥스 등 주요 기업의 직무발명 보상 제도 활성화와 대학 및 지자체 중심의 기술 특허 출원이 지속되며 연구 성과의 자산화가 빠르게 추진되고 있습니다.
 
 ---
 ## 개별 문헌 내역
@@ -31,13 +31,13 @@ description: "⚠️ 생성 실패"
 #### 📰 기사 1. "캐나다 LNG기술 진보성 없어"…삼성중공업, 특허분쟁 승기 잡았다
 - **정보**
   - **출처:** 한국경제
-  - **태그:** #에러
+  - **태그:** #삼성중공업 #LNG특허 #특허분쟁
   - **제목:** "캐나다 LNG기술 진보성 없어"…삼성중공업, 특허분쟁 승기 잡았다
   - **저자/발행처:** 한국경제
   - **발행일시:** Sun, 02 Aug 2026 08:21:35 GMT
   - **원문링크:** [바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xcVpjR0N2TndIRm9lalZsZEs5RC1QWlJnVUs4eEUwMl9iM2tWc2RWTDFWVjRkQ21WRHpIUkdiWUVrYzdPOGZGOVFnR3pyTU00V084cmpOQXJDUQ?oc=5)
 - **AI 요약**
-  기사 제목: "캐나다 LNG기술 진보성 없어"…삼성중공업, 특허분쟁 승기 잡았다 OpenRouter API 호출 중 오류가 발생하여 요약을 제공할 수 없습니다. 상세 에러: Expecting value: line 1 column 1 (char 0)
+  삼성중공업이 캐나다 업체의 LNG 기술 관련 특허에 대해 진보성이 없음을 입증하며 특허 분쟁에서 승기를 잡았다. 이번 판단으로 삼성중공업의 독자적 LNG 관련 기술력과 특허 방어 능력이 입증되었다.
 
 #### 📰 기사 2. 특허법원, 제13회 지식재산소송 변론경연대회 개최
 - **정보**
@@ -64,13 +64,13 @@ description: "⚠️ 생성 실패"
 #### 📰 기사 4. 코스맥스, '직무발명보상 우수기업' 인증 획득…특허 출원 2천건
 - **정보**
   - **출처:** 연합뉴스
-  - **태그:** #에러
+  - **태그:** #코스맥스 #직무발명 #특허출원
   - **제목:** 코스맥스, '직무발명보상 우수기업' 인증 획득…특허 출원 2천건
   - **저자/발행처:** 연합뉴스
   - **발행일시:** Tue, 04 Aug 2026 23:49:09 GMT
   - **원문링크:** [바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oTmI1MzRPRjA0RTdXTW5Od1ZHd2tPanZ5TzNkUFRfSllVemJpdmM2UTBSblpwM1lUZi1lRlZDQWU1ZkdDSEwtTy1iNy13aVljY3R2Z21XQ3hJT09QYmlGWdIBYEFVX3lxTE5oTmI1MzRPRjA0RTdXTW5Od1ZHd2tPanZ5TzNkUFRfSllVemJpdmM2UTBSblpwM1lUZi1lRlZDQWU1ZkdDSEwtTy1iNy13aVljY3R2Z21XQ3hJT09QYmlGWQ?oc=5)
 - **AI 요약**
-  기사 제목: 코스맥스, '직무발명보상 우수기업' 인증 획득…특허 출원 2천건 OpenRouter API 호출 중 오류가 발생하여 요약을 제공할 수 없습니다. 상세 에러: Expecting value: line 1 column 1 (char 0)
+  글로벌 화장품 ODM 기업 코스맥스가 특허 출원 2,000건 달성과 함께 '직무발명보상 우수기업' 인증을 획득했다. 임직원 연구개발 장려 제도와 지식재산권 관리 역량이 높게 평가받은 결과다.
 
 #### 📰 기사 5. [숫자로 풀어본 대학 순위] 2025 전국 대학 특허 출원 1위 대학은
 - **정보**

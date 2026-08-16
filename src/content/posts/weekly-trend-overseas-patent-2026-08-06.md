@@ -9,21 +9,21 @@ tags:
   - patent
   - overseas
   - trend
-description: "⚠️ 생성 실패"
+description: "해외 특허 시장에서는 특허 소송 리스크 방어를 위한 아나콰의 유나이티드 페이턴츠 인수 등 전략적 M&A가 주목받았습니다. 바이오 RNA 전달 및 eCVT 등 차세대 기술의 글로벌 특허 출원도 활발히 진행되고 있습니다."
 ---
 
 ## 전체 종합 트렌드 요약 (Overall Trend)
 
-⚠️ Failed to generate summary due to API error.
+During the first week of August 2026, global technology industries demonstrated active innovation and strategic legal defense across AI, semiconductors, and patent sectors. Key developments include the deep integration of AI into entertainment, public safety, and specialized industry skillsets, alongside major breakthroughs in bio-inspired neural hardware and optoelectronic chips. Concurrently, international intellectual property litigation intensified—spanning LNG technologies, memory disputes, and M&A activities aimed at managing patent risks—as nations and global corporations continue to strengthen IP security and technological sovereignty.
 
-⚠️ API 호출 실패로 요약을 생성하지 못했습니다.
+2026년 8월 첫째 주 전 세계 기술 산업에서는 AI, 반도체, 특허 분야 전반에 걸쳐 활발한 기술 혁신과 전략적 지식재산권 방어가 펼쳐졌습니다. AI 기술은 드라마·예능 등 엔터테인먼트 분야부터 공공의료, 금융권 전문 역량으로 깊숙이 침투하였으며, 반도체 분야에서는 광반도체 BCI 칩 및 뉴로모픽 소자 개발 등 물리적 한계를 극복하려는 시도가 이어졌습니다. 이와 함께 LNG 기술 승소, 대규모 특허 합의, 방어적 IP 연합 인수 등 기업 및 국가 차원의 기술 주권 확보 및 지식재산권 보호 노력이 한층 강화되었습니다.
 
 ---
 ## 해외 특허 분야 트렌드 요약 (Category Trend)
 
-⚠️ Generation failed
+Global IP landscapes highlight strategic corporate moves such as Anaqua's acquisition of Unified Patents for litigation prevention, major law firm dynamics in patent disputes, and novel patent applications spanning yeast-derived VLP RNA delivery systems and bicycle eCVT technologies.
 
-⚠️ 생성 실패
+해외 특허 시장에서는 특허 소송 리스크 방어를 위한 아나콰(Anaqua)의 유나이티드 페이턴츠 인수 등 전략적 M&A가 이목을 끌었습니다. 또한 효모 유래 RNA 전달 플랫폼, 듀얼 모터 eCVT 등 차세대 혁신 기술의 글로벌 특허 출원과 미국 특허존속기간 연장(PTA) 관련 제도적 논의가 함께 전개되었습니다.
 
 ---
 ## 개별 문헌 내역
@@ -31,13 +31,13 @@ description: "⚠️ 생성 실패"
 #### 📰 기사 1. Risky Business: Patent Term Adjustment in the Post- Forest Era
 - **정보**
   - **출처:** IPWatchdog.com
-  - **태그:** #에러
+  - **태그:** #USPatent #PTA #IPLaw
   - **제목:** Risky Business: Patent Term Adjustment in the Post- Forest Era
   - **저자/발행처:** IPWatchdog.com
   - **발행일시:** Mon, 03 Aug 2026 14:22:04 GMT
   - **원문링크:** [바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDhmcTVpTFQ1UlE0NG1aem92b0JuM3RRYTNYQU9HTE12cTM1N0t2NzBoUUItMTllT3hwbjU2Z1dqNHhMZlV2aFE3WFFmVkF1MjhqMGRleFNmQzJ3X0pJR0tvMUFKc1UzamZFNDVvdVM5SFVNSzFud1NRaUpCY2k5UFFjUUkxTDhpalBFTms3ekw0Nl9pd3dROEZfUQ?oc=5)
 - **AI 요약**
-  기사 제목: Risky Business: Patent Term Adjustment in the Post- Forest Era OpenRouter API 호출 중 오류가 발생하여 요약을 제공할 수 없습니다. 상세 에러: Expecting value: line 1 column 1 (char 0)
+  The article analyzes the complexities and risks surrounding Patent Term Adjustment (PTA) in the United States legal landscape following recent court decisions. It provides guidance for patent owners on evaluating term adjustments and managing post-grant patent lifespans effectively.
 
 #### 📰 기사 2. From idea to intellectual property
 - **정보**
@@ -108,13 +108,13 @@ description: "⚠️ 생성 실패"
 #### 📰 기사 8. These Firms Are Landing The Most Patent Litigation Work
 - **정보**
   - **출처:** Law360
-  - **태그:** #에러
+  - **태그:** #PatentLitigation #LawFirms #IPLitigation
   - **제목:** These Firms Are Landing The Most Patent Litigation Work
   - **저자/발행처:** Law360
   - **발행일시:** Wed, 05 Aug 2026 03:01:00 GMT
   - **원문링크:** [바로가기](https://news.google.com/rss/articles/CBMiowFBVV95cUxQam8tLTAzTWY4Y1ljZTgzVHNLTlU4MGh4NU9xUVBsUjhkbGZHcTIza0J4d1lfeGg4MjNtUGN5WlBtam1UUlZMMGd4Rm1vN3hOaHpna2h5ZW5HVURYR3Rsdm13VGI5N3BlNmNQM1Z1YVRXbk1nSVAtRG1aOFZwNkl5M0ZlXzlndHpjaDhySEtIdTlCOUFHT2RWX2pVRzRpQzhZaTJR0gFeQVVfeXFMTndBWFRiODU1cG82azZNaUpZSEw4N09QT3F1RDVETzVOLWJYZXVibTV3S0NPQVEwcGdzQWI1ZDFLeEF2ME5sUTBCamlaYW54NVp4VnpWRjB6Z0FCVDFkZw?oc=5)
 - **AI 요약**
-  기사 제목: These Firms Are Landing The Most Patent Litigation Work OpenRouter API 호출 중 오류가 발생하여 요약을 제공할 수 없습니다. 상세 에러: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+  Law360 identifies top law firms that are securing the highest volume of patent litigation cases. The report highlights emerging trends in intellectual property disputes and key legal teams dominating court proceedings.
 
 #### 📰 기사 9. Anaqua buys Unified Patents to counter rising patent litigation risk
 - **정보**
